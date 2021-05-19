@@ -1,0 +1,12 @@
+{
+    "EventDateAndTime": "2021-05-28T16:00:00Z",
+    "Location": "Best Pub",
+    "Invitees": [
+        { "Name": "Mark",
+		"Email": "mark@mail.com" },
+        { "Name": "Jon",
+		"Email": "jon@mail.com" },
+        { "Name": "Dan",
+		"Email": "dan@mail.com" }
+    ]
+}

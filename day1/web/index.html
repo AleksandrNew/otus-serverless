@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Who's Joining?</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Who's Joining?</h1>
+        </div>
+
+
+        <div class="content">
+        <h3 id="loadingMessage">Loading...</h3>
+        <div class="eventDetails">
+
+        <h3>Next party is at <span id="partyTime"></span> on <span id="partyDate"></span> at <span id="partyLocation"></span></h3>
+
+        <div class="myresponse">
+            <h3>My response: </h3>
+            <button data-response="yes">Joining</button>
+            <button data-response="maybe">Maybe</button>
+            <button data-response="no">Not Joining</button>
+            </div>
+
+            <div class="responses">
+                <div class="responseGroup joining">
+                    <h3 class="responseHeader joining">Joining</h3>
+                    <h1 class="responseCount" id="joiningCount"></h1>
+                    <div class="participants joining"></div>
+                </div>
+                <div class="responseGroup maybe">
+                    <h3 class="responseHeader maybe">Maybe</h3>
+                    <h1 class="responseCount" id="maybeCount"></h1>
+                    <div class="participants maybe"></div>
+                </div>
+                <div class="responseGroup notJoining">
+                    <h3 class="responseHeader notJoining">Not Joining</h3>
+                    <h1 class="responseCount" id="notJoiningCount"></h1>
+                    <div class="participants notJoining"></div>
+                </div>
+                <div class="responseGroup notResponded">
+                    <h3 class="responseHeader notResponded">Not Responded</h3>
+                    <h1 class="responseCount" id="notRespondedCount"></h1>
+                    <div class="participants notResponded"></div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+        <script src="scripts/app.js"></script>
+    </body>
+</html>
